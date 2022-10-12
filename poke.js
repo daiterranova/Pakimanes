@@ -12,11 +12,6 @@ class Pokemon {
     this.image.src = images[this.name];
   }
   show(heigth, width) {
-    // var divContent = document.createElement('#pokedivbox')
-    // divContent.querySelector('img').src = ''//imagen;
-    // divContent.querySelector('#id-cosovida').text = '100';
-
-    // -----------------
     var divContent = document.createElement("div");
     var title = document.createElement("h2");
     title.innerHTML = this.name;
